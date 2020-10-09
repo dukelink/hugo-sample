@@ -48,9 +48,11 @@ params:
   # parameter used to specify if you want to minify the imported css
   cssMinify: false
   # parameter used to specify if you want to calculate the css integrity
-  cssIntegrity: true
+  # changed to false prior to deploy per https://www.udemy.com/course/create-a-blog-website-hugo-github-netlify-in-30-minutes/learn/lecture/22360066#overview
+  cssIntegrity: false
   # parameter used to specify if you want to calculate the js integrity
-  jsIntegrity: true
+  # changed to false prior to deploy per https://www.udemy.com/course/create-a-blog-website-hugo-github-netlify-in-30-minutes/learn/lecture/22360066#overview
+  jsIntegrity: false
   # option to specify the main colour of the theme
   mainColour: "#F39200"
 
